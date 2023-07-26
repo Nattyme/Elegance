@@ -20,11 +20,12 @@ body {
 
 .nav__row {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
 }
 
 .nav__logo {
+    margin-right: 83px;
     font-family: 'Noto Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -62,7 +63,9 @@ body {
 .nav__link:hover {
     color: #f72464;
 }
+
 .nav__cart {
+    margin-left: auto;
 }
 
 .nav__cart-link {
@@ -128,8 +131,8 @@ body {
 .btn {
     display: inline-block;
     padding: 11px 33px 14px;
-    background: #F72464;
-    box-shadow: 0px 4px 15px 0px rgba(123, 12, 46, 0.35);
+    background-color: #F72464;
+    box-shadow: 0 4px 15px 0 rgba(123, 12, 46, 0.35);
     border-radius: 4px;
 
     
@@ -142,6 +145,16 @@ body {
     text-align: center;
     text-decoration: none;
     color: #FFF;
+
+    transition: box-shadow 0.2s ease-in, background-color 0.2s ease-in;
 }
+
+.btn:hover {
+    box-shadow: 0 4px 25px rgba(184, 13, 64, 0.671);
+    background-color: #ff3874;
+}
+
+
 .header__photo {
 }
+
