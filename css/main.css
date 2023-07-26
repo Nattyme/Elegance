@@ -94,9 +94,36 @@ body {
 
 .header__row {
     display: flex;
+    position: relative;
     justify-content: flex-end;
 }
+
+.header__content {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 670px;
+    background-color: #f7246355;
+}
+
+.header__title {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 96px;
+    margin-bottom: 20px;
+}
+
 .header__text {
+    font-size: 22px;
+    line-height: 1.5; /* 33px */
+    margin-bottom: 60px;
+}
+.header__btn {
+}
+.btn {
 }
 .header__photo {
 }
