@@ -7,18 +7,23 @@ body {
     font-family: 'Noto Sans', sans-serif;
 }
 
-.nav {
-    padding: 40px 0;
-}
-
 .container {
     width: 1170px;
     margin: 0 auto;
 }
+
+/* Navigation */
+
+.nav {
+    padding: 40px 0;
+}
+
 .nav__row {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
+
 .nav__logo {
     font-family: 'Noto Sans', sans-serif;
     font-style: normal;
@@ -80,5 +85,18 @@ body {
     line-height: 20px;
     font-weight: 700;
     text-align: center;
-    
+}
+
+/* Header */
+.header {
+}
+
+
+.header__row {
+    display: flex;
+    justify-content: flex-end;
+}
+.header__text {
+}
+.header__photo {
 }
