@@ -4,21 +4,58 @@
 
 body {
     margin: 0;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .nav {
+    padding: 40px 0;
 }
+
 .container {
+    width: 1170px;
+    margin: 0 auto;
 }
 .nav__row {
+    display: flex;
+    justify-content: space-between;
 }
 .nav__logo {
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 38px;
+    color: #000;
 }
+
+.nav__logo:hover {
+    color: #f72464;
+}
+
 .nav__list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
+
 .nav__item {
+    margin-right: 30px;
+    font-style: 18px;
 }
+
+.nav__item:last-child {
+    margin-right: 0;
+
+}
+
 .nav__link {
+    text-decoration: none;
+    color: #000;
+}
+
+.nav__link:hover {
+    color: #f72464;
 }
 .nav__cart {
 }
