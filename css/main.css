@@ -199,6 +199,7 @@ body {
 
 /* Product */
 .product-wrapper {
+    margin-bottom: 40px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -250,6 +251,38 @@ body {
 .product__price-new {
     font-weight: 700;
     color: #F72464;
+}
+
+/* Section */
+
+.section-button-wrapper {
+    text-align: center;
+}
+
+/* Button outline*/
+
+.button-outline {    
+    display: inline-block;
+    padding: 10px 40px 11px;
+    border-radius: 4px;
+    border: 1px solid #F72464;
+    background: #FFF;
+    
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #777;
+    transition: background-color 0.2s ease-in, color 0.2s ease-in;
+}
+
+.button-outline:hover {
+    background-color: #F72464;
+    color: white;
 }
 
 
