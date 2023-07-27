@@ -197,6 +197,25 @@ body {
     margin-top: 0;
 }
 
+/* Product */
+.product-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 40px;
+}
+
+.product-link {
+    display: inline-block;
+    text-decoration: none;
+    transition: opacity 0.2s ease-in;
+}
+
+.product-link:hover {
+    opacity: 0.8;
+}
+
+
 .product {
     max-width: 270px;
     text-align: center;
@@ -232,3 +251,5 @@ body {
     font-weight: 700;
     color: #F72464;
 }
+
+
