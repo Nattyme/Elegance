@@ -1,0 +1,51 @@
+.btn {
+    display: inline-block;
+    padding: 11px 33px 14px;
+    background-color: #F72464;
+    box-shadow: 0 4px 15px 0 rgba(123, 12, 46, 0.35);
+    border-radius: 4px;
+
+    
+    
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+    color: #FFF;
+
+    transition: box-shadow 0.2s ease-in, background-color 0.2s ease-in;
+}
+
+.btn:hover {
+    box-shadow: 0 4px 25px rgba(184, 13, 64, 0.671);
+    background-color: #ff3874;
+}
+
+/* Button outline*/
+
+.button-outline {    
+    display: inline-block;
+    padding: 10px 40px 11px;
+    border-radius: 4px;
+    border: 1px solid #F72464;
+    background: #FFF;
+    
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #777;
+    transition: background-color 0.2s ease-in, color 0.2s ease-in;
+}
+
+.button-outline:hover {
+    background-color: #F72464;
+    color: white;
+}
