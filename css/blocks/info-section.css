@@ -6,8 +6,10 @@
     background-position: center center; 
     background-size: cover;
     background-repeat: no-repeat;
-    
+}
 
+.info-section-2 {
+    background-image: url('./../../img/info-blocks/bg-2.jpg');
 }
 
 .info-section::before {
