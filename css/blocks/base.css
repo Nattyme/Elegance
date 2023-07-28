@@ -39,6 +39,11 @@ body {
 
 }
 
+.section-subscribe {
+    padding-top: 45px;
+    padding-bottom: 100px;
+}
+
 .none {
     display: none;
 }
