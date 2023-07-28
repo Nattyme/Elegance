@@ -38,3 +38,12 @@ body {
     padding-bottom: 70px;
 
 }
+
+.none {
+    display: none;
+}
+
+.section-blog {
+    padding-top: 70px;
+    padding-bottom: 45px;
+}
