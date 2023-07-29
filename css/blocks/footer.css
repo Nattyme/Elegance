@@ -1,12 +1,28 @@
 .footer {
+    padding: 30px 0;
     background-color: #000;
+    color: #fff;
 }
-.container {
+
+.footer a {
+    text-decoration: none;
+    color: #fff;
 }
+
+.footer__column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .footer__nav {
+    margin-bottom: 25px;
 }
 .footer__socials {
+    margin-bottom: 25px;
 }
+
+
 .footer__socials-link {
 }
 .footer__socials-icon {
