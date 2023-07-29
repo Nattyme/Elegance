@@ -17,15 +17,55 @@
 
 .footer__nav {
     margin-bottom: 25px;
+ 
+   
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFF;
 }
+
+.footer__nav a {
+    text-decoration: none;
+}
+
+.footer__nav > a + a {
+    margin-left: 30px;
+}
+
 .footer__socials {
     margin-bottom: 25px;
+    display: flex;
+    align-items: center;
 }
 
 
 .footer__socials-link {
+    text-decoration: none;
 }
+
+.footer__socials-link + .footer__socials-link {
+    margin-left: 31px;
+}
+
 .footer__socials-icon {
+    
 }
+
+.footer__socials-icon:hover path {
+    transition: fill 0.2s ease-in;
+}
+
+.footer__socials-icon:hover path {
+    fill:#F72464;
+}
+
+
 .footer__copyright {
+    font-size: 14px;
+    text-align: center;
+    color: #999;
+}
+
+.footer__copyright p {
+    margin: 0;
 }
