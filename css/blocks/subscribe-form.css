@@ -44,4 +44,12 @@
     font-weight: 400;
     line-height: 1;
 
+    cursor: pointer;
+    transition: background-color 0.2s ease-in;
+
+}
+
+.subscribe-form__button:hover {
+    box-shadow: 0 2px 15px rgba(184, 13, 64, 0.671);
+    background-color: #ff3874;
 }
