@@ -1,12 +1,12 @@
 .footer {
     padding: 30px 0;
-    background-color: #000;
-    color: #fff;
+    background-color: $black;
+    color: $white;
 }
 
 .footer a {
     text-decoration: none;
-    color: #fff;
+    color: $white;
 }
 
 .footer__column {
@@ -21,16 +21,16 @@
    
     font-size: 14px;
     text-transform: uppercase;
-    color: #FFF;
+    color: $white;
 }
 
 .footer__nav a {
     text-decoration: none;
     transition: opacity 0.2s ease-in;
-}
 
-.footer__nav a:hover {
-    opacity: 0.8;
+    &:hover  {
+        opacity: 0.8;
+    }
 }
 
 .footer__nav > a + a {
@@ -52,23 +52,18 @@
     margin-left: 31px;
 }
 
-.footer__socials-icon {
-    
-}
-
 .footer__socials-icon:hover path {
     transition: fill 0.2s ease-in;
-}
 
-.footer__socials-icon:hover path {
-    fill:#F72464;
+    &:hover path {
+        fill:$bg-btn;
+    }
 }
-
 
 .footer__copyright {
     font-size: 14px;
     text-align: center;
-    color: #999;
+    color: $grey-light;
 }
 
 .footer__copyright p {
