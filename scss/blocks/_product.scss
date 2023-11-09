@@ -1,4 +1,3 @@
-/* Product */
 .product-wrapper {
     margin-bottom: 40px;
     display: flex;
@@ -11,12 +10,11 @@
     display: inline-block;
     text-decoration: none;
     transition: opacity 0.2s ease-in;
-}
 
-.product-link:hover {
-    opacity: 0.8;
+    &:hover {
+        opacity: 0.8;
+    }
 }
-
 
 .product {
     max-width: 270px;
@@ -30,12 +28,14 @@
 .product__title {
     margin: 0;
     margin-bottom: 12px;
-    font-family: 'Playfair Display', serif;
+
+    font-family: $font-secondary;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 27px;
-    color: #000;
+
+    color: $black;
 }
 
 .product__price {
@@ -47,9 +47,9 @@
 
 .product__price-old {
     margin-right: 10px;
-    color: #999;
+    color: $grey-light;
 }
 .product__price-new {
     font-weight: 700;
-    color: #F72464;
+    color: $bg-btn;
 }
