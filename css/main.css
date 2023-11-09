@@ -241,6 +241,9 @@ body {
   color: #fff;
   background-color: #F72464;
 }
+.nav__cart-number:hover {
+  top: -6px;
+}
 
 .header__row {
   display: flex;

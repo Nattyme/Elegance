@@ -76,4 +76,8 @@
 
     color: $white;
     background-color: $bg-btn;
+
+    &:hover{
+       top: -6px;
+    }
 }
