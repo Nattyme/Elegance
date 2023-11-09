@@ -117,7 +117,6 @@ legend {
   font-family: "Playfair Display", sans-serif;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
   line-height: normal;
   text-align: center;
   text-transform: uppercase;
@@ -259,7 +258,7 @@ body {
 
 .header__title {
   margin: 0;
-  font-family: "Playfair Display", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-size: 72px;
   font-weight: 400;
   line-height: 96px;
@@ -517,7 +516,6 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 1;
-  cursor: pointer;
   transition: background-color 0.2s ease-in;
 }
 .subscribe-form__button:hover {
